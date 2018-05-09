@@ -1,4 +1,4 @@
-/Users/student/Desktop/tu/TicTacToeIOS-Lab4/TicTacToeIOS/TicTacToeIOS/bin/iPhoneSimulator/Debug/TicTacToeIOS.exe
+/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/bin/iPhoneSimulator/Debug/TicTacToeIOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/System.dll

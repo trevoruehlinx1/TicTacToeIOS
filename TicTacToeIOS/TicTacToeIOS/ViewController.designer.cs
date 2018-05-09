@@ -15,11 +15,19 @@ namespace TicTacToeIOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton AboutButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton newGameButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton NewGameButton2 { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ScoreBoardButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -71,6 +79,11 @@ namespace TicTacToeIOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (AboutButton != null) {
+                AboutButton.Dispose ();
+                AboutButton = null;
+            }
+
             if (newGameButton != null) {
                 newGameButton.Dispose ();
                 newGameButton = null;
@@ -79,6 +92,11 @@ namespace TicTacToeIOS
             if (NewGameButton2 != null) {
                 NewGameButton2.Dispose ();
                 NewGameButton2 = null;
+            }
+
+            if (ScoreBoardButton != null) {
+                ScoreBoardButton.Dispose ();
+                ScoreBoardButton = null;
             }
 
             if (squar1 != null) {

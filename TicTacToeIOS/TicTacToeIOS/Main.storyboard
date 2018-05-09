@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" text="TicTacToeIOS">
+                                <rect key="frame" x="188.5" y="24" width="103" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="200" translatesAutoresizingMaskIntoConstraints="NO" tag="1">
+                                <rect key="frame" x="229" y="63" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="201" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="0,1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="204" translatesAutoresizingMaskIntoConstraints="NO" tag="2">
+                                <rect key="frame" x="278" y="63" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="206" id="205" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="231" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="0,2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="207" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="179" y="101" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="209" id="208" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="232" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="1,0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="210" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="229" y="100" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="212" id="211" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="233" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="1,1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="213" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="278" y="101" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="215" id="214" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="234" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="1,2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="216" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="179" y="139" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="218" id="217" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="235" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="2,0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="219" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="229" y="139" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="221" id="220" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="236" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="2,1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="222" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="278" y="139" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="224" id="223" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="237" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="2,2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="225" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="179" y="62" width="30" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="227" id="226" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="BYZ-38-t0r" id="230" eventType="touchUpInside"/>
+                                </connections>
+                                <accessibility key="accessibilityConfiguration" identifier="0,0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="249" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO">
+                                <rect key="frame" x="122" y="229.5" width="84" height="33"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="NewGameButton_TouchUpInside:" destination="BYZ-38-t0r" id="250" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1563" translatesAutoresizingMaskIntoConstraints="NO" text="WinnerLabel">
+                                <rect key="frame" x="338.5" y="104.5" width="91" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9690" translatesAutoresizingMaskIntoConstraints="NO" adjustsImageSizeForAccessibilityContentSizeCategory="YES">
+                                <rect key="frame" x="80" y="62" width="80" height="107"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton200_TouchUpInside:" destination="9692" id="9691" eventType="touchUpInside"/>
+                                    <action selector="UIButton200_TouchUpInside:" destination="9694" id="9693" eventType="touchUpInside"/>
+                                    <action selector="NewGameButton_TouchUpInside:" destination="BYZ-38-t0r" id="9696"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="10839" firstItem="9690" firstAttribute="width" constant="80"/>
+                                    <constraint id="10840" firstItem="9690" firstAttribute="height" constant="107"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="7687" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="7688" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="153"/>
+                            <constraint id="7694" firstItem="200" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="44"/>
+                            <constraint id="7695" firstItem="200" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="7696" firstItem="204" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="44"/>
+                            <constraint id="7697" firstItem="204" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="53"/>
+                            <constraint id="7698" firstItem="207" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="82"/>
+                            <constraint id="7699" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="207" secondAttribute="centerX" constant="46"/>
+                            <constraint id="7700" firstItem="210" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="81"/>
+                            <constraint id="7701" firstItem="210" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="7702" firstItem="213" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="82"/>
+                            <constraint id="7703" firstItem="213" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="53"/>
+                            <constraint id="7704" firstItem="216" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="120"/>
+                            <constraint id="7705" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="216" secondAttribute="centerX" constant="46"/>
+                            <constraint id="7706" firstItem="219" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="120"/>
+                            <constraint id="7707" firstItem="219" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="7708" firstItem="222" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="120"/>
+                            <constraint id="7709" firstItem="222" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="53"/>
+                            <constraint id="7712" firstItem="1563" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="226"/>
+                            <constraint id="7713" firstItem="1563" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="8030" firstItem="225" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="43"/>
+                            <constraint id="8031" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="225" secondAttribute="centerX" constant="46"/>
+                            <constraint id="8301" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="126"/>
+                            <constraint id="8695" firstItem="249" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="159"/>
+                            <constraint id="8696" firstItem="249" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="8697" firstItem="1563" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="80"/>
+                            <constraint id="8698" firstItem="1563" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="144"/>
+                            <constraint id="9688" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="249" secondAttribute="centerX" constant="131"/>
+                            <constraint id="9689" firstItem="249" firstAttribute="centerY" secondItem="197" secondAttribute="bottom" constant="71"/>
+                            <constraint id="9697" firstItem="197" firstAttribute="leading" secondItem="9690" secondAttribute="centerX" constant="68"/>
+                            <constraint id="9698" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="9690" secondAttribute="centerY" constant="44"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8301"/>
+                                <exclude reference="7713"/>
+                                <exclude reference="8697"/>
+                                <exclude reference="8698"/>
+                                <exclude reference="7712"/>
+                                <exclude reference="8695"/>
+                                <exclude reference="8696"/>
+                                <exclude reference="9688"/>
+                                <exclude reference="9689"/>
+                                <exclude reference="9697"/>
+                                <exclude reference="9698"/>
+                            </mask>
+                            <mask key="subviews">
+                                <exclude reference="249"/>
+                                <exclude reference="9690"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="8301"/>
+                                <include reference="8697"/>
+                                <include reference="8698"/>
+                                <include reference="9688"/>
+                                <include reference="9689"/>
+                                <include reference="9697"/>
+                                <include reference="9698"/>
+                            </mask>
+                            <mask key="subviews">
+                                <include reference="1563"/>
+                                <exclude reference="249"/>
+                                <include reference="9690"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="1563"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="7712"/>
+                                <exclude reference="7713"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1563"/>
+                                <include reference="249"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="7712"/>
+                                <include reference="7713"/>
+                                <include reference="8695"/>
+                                <include reference="8696"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="squar1" destination="225" id="name-outlet-225"/>
+                        <outlet property="squar2" destination="200" id="name-outlet-200"/>
+                        <outlet property="squar3" destination="204" id="name-outlet-204"/>
+                        <outlet property="squar4" destination="207" id="name-outlet-207"/>
+                        <outlet property="squar5" destination="210" id="name-outlet-210"/>
+                        <outlet property="squar6" destination="213" id="name-outlet-213"/>
+                        <outlet property="squar7" destination="216" id="name-outlet-216"/>
+                        <outlet property="squar8" destination="219" id="name-outlet-219"/>
+                        <outlet property="squar9" destination="222" id="name-outlet-222"/>
+                        <outlet property="newGameButton" destination="249" id="name-outlet-249"/>
+                        <outlet property="winnerLabel" destination="1563" id="name-outlet-1563"/>
+                        <outlet property="NewGameButton2" destination="9690" id="name-outlet-9690"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="13"/>
+        </scene>
+    </scenes>
+</document>

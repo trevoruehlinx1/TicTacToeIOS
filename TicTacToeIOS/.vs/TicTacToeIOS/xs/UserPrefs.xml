@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="{935DC57D-FEE8-4F4A-833C-7F7FC7D472E8}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TicTacToeIOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.945852E5-283E-4046-A596-07F3044E0E25">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TicTacToeIOS>
+</Properties>

@@ -11,8 +11,8 @@ using UIKit;
 
 namespace TicTacToeIOS
 {
-    [Register ("ScoreBoard")]
-    partial class ScoreBoard
+    [Register ("ScoreBoardController")]
+    partial class ScoreBoardController
     {
     }
 }

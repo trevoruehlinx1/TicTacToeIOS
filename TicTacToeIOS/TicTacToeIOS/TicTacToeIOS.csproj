@@ -109,9 +109,13 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="ScoreBoard.cs" />
-    <Compile Include="ScoreBoard.designer.cs">
-      <DependentUpon>ScoreBoard.cs</DependentUpon>
+    <Compile Include="AboutController.cs" />
+    <Compile Include="AboutController.designer.cs">
+      <DependentUpon>AboutController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScoreBoardController.cs" />
+    <Compile Include="ScoreBoardController.designer.cs">
+      <DependentUpon>ScoreBoardController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

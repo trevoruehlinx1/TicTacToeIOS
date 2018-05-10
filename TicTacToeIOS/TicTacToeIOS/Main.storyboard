@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="11144">
-    <device id="retina3_5" orientation="landscape">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,18 +17,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO" text="TicTacToeIOS">
-                                <rect key="frame" x="188.5" y="24" width="103" height="20.5"/>
+                                <rect key="frame" x="108.5" y="77" width="103" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="200" translatesAutoresizingMaskIntoConstraints="NO" tag="1">
-                                <rect key="frame" x="229" y="63" width="30" height="30"/>
+                                <rect key="frame" x="149" y="116" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -39,7 +39,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="0,1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="204" translatesAutoresizingMaskIntoConstraints="NO" tag="2">
-                                <rect key="frame" x="278" y="63" width="30" height="30"/>
+                                <rect key="frame" x="198" y="116" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -51,7 +51,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="0,2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="207" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="179" y="101" width="30" height="30"/>
+                                <rect key="frame" x="99" y="154" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -63,7 +63,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="1,0"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="210" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="229" y="100" width="30" height="30"/>
+                                <rect key="frame" x="149" y="153" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -75,7 +75,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="1,1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="213" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="278" y="101" width="30" height="30"/>
+                                <rect key="frame" x="198" y="154" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -87,7 +87,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="1,2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="216" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="179" y="139" width="30" height="30"/>
+                                <rect key="frame" x="99" y="192" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -99,7 +99,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="2,0"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="219" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="229" y="139" width="30" height="30"/>
+                                <rect key="frame" x="149" y="192" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -111,7 +111,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="2,1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="222" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="278" y="139" width="30" height="30"/>
+                                <rect key="frame" x="198" y="192" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -123,7 +123,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="2,2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="225" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="179" y="62" width="30" height="30"/>
+                                <rect key="frame" x="99" y="115" width="30" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
@@ -134,10 +134,10 @@
                                 </connections>
                                 <accessibility key="accessibilityConfiguration" identifier="0,0"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="249" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="249" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO" misplaced="YES">
                                 <rect key="frame" x="122" y="229.5" width="84" height="33"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15" weight="semibold"/>
                                 <state key="normal" title="New Game">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 </state>
@@ -146,7 +146,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1563" translatesAutoresizingMaskIntoConstraints="NO" text="WinnerLabel">
-                                <rect key="frame" x="338.5" y="104.5" width="91" height="19.5"/>
+                                <rect key="frame" x="118.5" y="303.5" width="91" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -168,26 +168,28 @@
                                     <constraint id="10840" firstItem="9690" firstAttribute="height" constant="107"/>
                                 </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11347" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO">
-                                <rect key="frame" x="344" y="66.5" width="80" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11347" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO" misplaced="YES">
+                                <rect key="frame" x="74" y="332" width="80" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13" weight="semibold"/>
                                 <state key="normal" title="Score Board">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="NewGameButton_TouchUpInside:" destination="11349" id="11348" eventType="touchUpInside"/>
+                                    <action selector="ScoreBoardButton_TouchUpInside:" destination="BYZ-38-t0r" id="13563" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11703" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO" misplaced="YES">
-                                <rect key="frame" x="344" y="138" width="80" height="29"/>
+                                <rect key="frame" x="168" y="332" width="78" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13" weight="semibold"/>
                                 <state key="normal" title="About TTT">
                                     <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="NewGameButton_TouchUpInside:" destination="11705" id="11704" eventType="touchUpInside"/>
+                                    <action selector="AboutButton_TouchUpInside:" destination="BYZ-38-t0r" id="12358" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -321,7 +323,7 @@
                         <outlet property="ScoreBoardButton" destination="11347" id="name-outlet-11347"/>
                         <outlet property="AboutButton" destination="11703" id="name-outlet-11703"/>
                     </connections>
-                    <navigationItem title="Title" id="11237" key="navigationItem"/>
+                    <navigationItem id="11237" key="navigationItem" title="Home"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,7 +333,7 @@
             <objects>
                 <navigationController id="11144" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="11146">
-                        <rect key="frame" x="0.0" y="20" width="480" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -341,6 +343,76 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="11147" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-722" y="-203"/>
+        </scene>
+        <scene sceneID="12024">
+            <objects>
+                <tableViewController id="12025" sceneMemberID="viewController" customClass="AboutController" storyboardIdentifier="AboutController" title="A Little About Us!">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="12026">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="12029">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="12029" id="12030">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="12025" id="12027"/>
+                            <outlet property="delegate" destination="12025" id="12028"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12031" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="-598"/>
+        </scene>
+        <scene sceneID="12349">
+            <objects>
+                <tableViewController id="12350" sceneMemberID="viewController" customClass="ScoreBoardController" storyboardIdentifier="ScoreBoardController" title="Score History">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="12351">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="12354">
+                                <rect key="frame" x="0.0" y="72" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="12354" id="12355">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="14196" key="tableHeaderView" fixedFrame="YES" text="Here is the history of wins for X's &amp; O's!">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17" weight="semibold"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="12350" id="12352"/>
+                            <outlet property="delegate" destination="12350" id="12353"/>
+                        </connections>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="14258" key="tableHeaderView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12356" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="-38"/>
         </scene>
     </scenes>
 </document>

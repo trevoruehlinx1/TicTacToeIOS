@@ -69,9 +69,17 @@ namespace TicTacToeIOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel winnerLabel { get; set; }
 
+        [Action ("AboutButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void AboutButton_TouchUpInside (UIKit.UIButton sender);
+
         [Action ("NewGameButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void NewGameButton_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("ScoreBoardButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void ScoreBoardButton_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("UIButton200_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]

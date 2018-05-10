@@ -23,6 +23,21 @@ namespace TicTacToeIOS
             // Release any cached data, images, etc that aren't in use.
         }
 
+        partial void ScoreBoardButton_TouchUpInside(UIButton sender)
+        {
+            UIViewController controller;
+            controller = this.Storyboard.InstantiateViewController("ScoreBoardController") as ScoreBoardController;
+            this.NavigationController.PushViewController(controller, true);
+        }
+
+        partial void AboutButton_TouchUpInside(UIButton sender)
+        {
+            UIViewController controller;
+            controller = this.Storyboard.InstantiateViewController("AboutController") as AboutController;
+            this.NavigationController.PushViewController(controller,true);
+
+        }
+
         partial void UIButton200_TouchUpInside(UIButton sender)
         {
             string senderName = sender.AccessibilityIdentifier.ToString();

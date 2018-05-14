@@ -14,5 +14,25 @@ namespace TicTacToeIOS
     [Register ("ScoreBoardController")]
     partial class ScoreBoardController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel OScoreOutputLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel XScoreOutputLabel { get; set; }
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (OScoreOutputLabel != null) {
+                OScoreOutputLabel.Dispose ();
+                OScoreOutputLabel = null;
+            }
+
+            if (XScoreOutputLabel != null) {
+                XScoreOutputLabel.Dispose ();
+                XScoreOutputLabel = null;
+            }
+        }
     }
 }

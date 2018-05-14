@@ -14,5 +14,8 @@ namespace TicTacToeIOS
     [Register ("AboutController")]
     partial class AboutController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

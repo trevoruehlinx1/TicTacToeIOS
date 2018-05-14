@@ -25,6 +25,12 @@ namespace TicTacToeIOS
 
         partial void ScoreBoardButton_TouchUpInside(UIButton sender)
         {
+            UIView.BeginAnimations("View CurlUp");
+            UIView.SetAnimationDuration(0.5);
+            UIView.SetAnimationCurve(UIViewAnimationCurve.EaseInOut);
+            UIView.SetAnimationTransition(UIViewAnimationTransition.CurlUp, forView: View,)
+            UIView.CommitAnimations();
+
             UIViewController controller;
             controller = this.Storyboard.InstantiateViewController("ScoreBoardController") as ScoreBoardController;
             this.NavigationController.PushViewController(controller, true);

@@ -20,6 +20,10 @@ namespace TicTacToeIOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView ScoreBoardViewController { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel XScoreOutputLabel { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -27,6 +31,11 @@ namespace TicTacToeIOS
             if (OScoreOutputLabel != null) {
                 OScoreOutputLabel.Dispose ();
                 OScoreOutputLabel = null;
+            }
+
+            if (ScoreBoardViewController != null) {
+                ScoreBoardViewController.Dispose ();
+                ScoreBoardViewController = null;
             }
 
             if (XScoreOutputLabel != null) {

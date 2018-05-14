@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{935DC57D-FEE8-4F4A-833C-7F7FC7D472E8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToeIOS/ViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToeIOS/ScoreBoardController.cs">
     <Files>
       <File FileName="TicTacToeIOS/Main.storyboard" />
-      <File FileName="TicTacToeIOS/ScoreBoardController.cs" Line="14" Column="6" />
-      <File FileName="TicTacToeIOS/AboutController.cs" Line="7" Column="46" />
-      <File FileName="TicTacToeIOS/ViewController.cs" Line="29" Column="1" />
+      <File FileName="TicTacToeIOS/ScoreBoardController.cs" Line="20" Column="10" />
+      <File FileName="TicTacToeIOS/ViewController.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

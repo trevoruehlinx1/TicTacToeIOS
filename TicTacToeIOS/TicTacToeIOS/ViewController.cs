@@ -6,6 +6,7 @@ namespace TicTacToeIOS
 {
     public partial class ViewController : UIViewController
     {
+        int xScore, oScore = 0;
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -25,23 +26,19 @@ namespace TicTacToeIOS
 
         partial void ScoreBoardButton_TouchUpInside(UIButton sender)
         {
-            UIView.BeginAnimations("View CurlUp");
-            UIView.SetAnimationDuration(0.5);
-            UIView.SetAnimationCurve(UIViewAnimationCurve.EaseInOut);
-            UIView.SetAnimationTransition(UIViewAnimationTransition.CurlUp, forView: View,)
-            UIView.CommitAnimations();
-
-            UIViewController controller;
+            ScoreBoardController controller;
             controller = this.Storyboard.InstantiateViewController("ScoreBoardController") as ScoreBoardController;
             this.NavigationController.PushViewController(controller, true);
+
+            controller.XScore = xScore;
+            controller.OScore = oScore;
         }
 
         partial void AboutButton_TouchUpInside(UIButton sender)
         {
-            UIViewController controller;
+            AboutController controller;
             controller = this.Storyboard.InstantiateViewController("AboutController") as AboutController;
             this.NavigationController.PushViewController(controller,true);
-
         }
 
         partial void UIButton200_TouchUpInside(UIButton sender)
@@ -96,12 +93,14 @@ namespace TicTacToeIOS
                 if (TTTLogic.IsWinner() || TTTLogic.IsTie())
                 {
                     winnerLabel.Text = TTTLogic.IsWinner() ? "Computer Wins" : "Its a Tie";
+                    xScore++;
                     DisableGame();
                 }
             }
             else
             {
                 winnerLabel.Text = TTTLogic.IsWinner() ? "You Win" : "Its a Tie";
+                oScore++;
                 DisableGame();
             }
         }
@@ -145,3 +144,9 @@ namespace TicTacToeIOS
         }
     }
 }
+            //ANIMATION NOTES!!!
+            //UIView.BeginAnimations("View CurlUp");
+            //UIView.SetAnimationDuration(0.5);
+            //UIView.SetAnimationCurve(UIViewAnimationCurve.EaseInOut);
+            //UIView.SetAnimationTransition(UIViewAnimationTransition.CurlUp, forView: View, cache: true);
+            //UIView.CommitAnimations();

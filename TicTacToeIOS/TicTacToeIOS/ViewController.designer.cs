@@ -19,6 +19,14 @@ namespace TicTacToeIOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel cityLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIPickerView CityPicker { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton newGameButton { get; set; }
 
         [Outlet]
@@ -90,6 +98,16 @@ namespace TicTacToeIOS
             if (AboutButton != null) {
                 AboutButton.Dispose ();
                 AboutButton = null;
+            }
+
+            if (cityLabel != null) {
+                cityLabel.Dispose ();
+                cityLabel = null;
+            }
+
+            if (CityPicker != null) {
+                CityPicker.Dispose ();
+                CityPicker = null;
             }
 
             if (newGameButton != null) {

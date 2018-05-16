@@ -117,6 +117,7 @@
     <Compile Include="ScoreBoardController.designer.cs">
       <DependentUpon>ScoreBoardController.cs</DependentUpon>
     </Compile>
+    <Compile Include="CityPickerModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -15,15 +15,7 @@ namespace TicTacToeIOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton AboutButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel cityLabel { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIPickerView CityPicker { get; set; }
+        UIKit.UILabel cityLabel2 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -32,10 +24,6 @@ namespace TicTacToeIOS
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton NewGameButton2 { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton ScoreBoardButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -77,17 +65,9 @@ namespace TicTacToeIOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel winnerLabel { get; set; }
 
-        [Action ("AboutButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void AboutButton_TouchUpInside (UIKit.UIButton sender);
-
         [Action ("NewGameButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void NewGameButton_TouchUpInside (UIKit.UIButton sender);
-
-        [Action ("ScoreBoardButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void ScoreBoardButton_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("UIButton200_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -95,19 +75,9 @@ namespace TicTacToeIOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (AboutButton != null) {
-                AboutButton.Dispose ();
-                AboutButton = null;
-            }
-
-            if (cityLabel != null) {
-                cityLabel.Dispose ();
-                cityLabel = null;
-            }
-
-            if (CityPicker != null) {
-                CityPicker.Dispose ();
-                CityPicker = null;
+            if (cityLabel2 != null) {
+                cityLabel2.Dispose ();
+                cityLabel2 = null;
             }
 
             if (newGameButton != null) {
@@ -118,11 +88,6 @@ namespace TicTacToeIOS
             if (NewGameButton2 != null) {
                 NewGameButton2.Dispose ();
                 NewGameButton2 = null;
-            }
-
-            if (ScoreBoardButton != null) {
-                ScoreBoardButton.Dispose ();
-                ScoreBoardButton = null;
             }
 
             if (squar1 != null) {

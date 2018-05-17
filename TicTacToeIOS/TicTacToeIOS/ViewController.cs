@@ -5,6 +5,7 @@ namespace TicTacToeIOS
 {
     public partial class ViewController : UIViewController
     {
+        
         int xScore, oScore = 0;
         protected ViewController(IntPtr handle) : base(handle)
         {
@@ -13,7 +14,7 @@ namespace TicTacToeIOS
 
         public override void ViewDidLoad()
         {
-            CityPicker.Model = new CityPickerModel(cityLabel);
+            
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
         }
@@ -24,24 +25,6 @@ namespace TicTacToeIOS
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
-
-        partial void ScoreBoardButton_TouchUpInside(UIButton sender)
-        {
-            ScoreBoardController controller;
-            controller = this.Storyboard.InstantiateViewController("ScoreBoardController") as ScoreBoardController;
-            this.NavigationController.PushViewController(controller, true);
-
-            controller.XScore = xScore;
-            controller.OScore = oScore;
-        }
-
-        partial void AboutButton_TouchUpInside(UIButton sender)
-        {
-            AboutController controller;
-            controller = this.Storyboard.InstantiateViewController("AboutController") as AboutController;
-            this.NavigationController.PushViewController(controller,true);
-        }
-
         partial void UIButton200_TouchUpInside(UIButton sender)
         {
             string senderName = sender.AccessibilityIdentifier.ToString();

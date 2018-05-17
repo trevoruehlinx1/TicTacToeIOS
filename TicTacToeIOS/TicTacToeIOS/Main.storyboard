@@ -168,30 +168,13 @@
                                     <constraint id="10840" firstItem="9690" firstAttribute="height" constant="107"/>
                                 </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11347" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO" misplaced="YES">
-                                <rect key="frame" x="74" y="332" width="80" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13" weight="semibold"/>
-                                <state key="normal" title="Score Board">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
-                                </state>
-                                <connections>
-                                    <action selector="NewGameButton_TouchUpInside:" destination="11349" id="11348" eventType="touchUpInside"/>
-                                    <action selector="ScoreBoardButton_TouchUpInside:" destination="BYZ-38-t0r" id="13563" eventType="touchUpInside"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="11703" translatesAutoresizingMaskIntoConstraints="NO" autoresizesSubviews="NO" misplaced="YES">
-                                <rect key="frame" x="168" y="332" width="78" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13" weight="semibold"/>
-                                <state key="normal" title="About TTT">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
-                                </state>
-                                <connections>
-                                    <action selector="NewGameButton_TouchUpInside:" destination="11705" id="11704" eventType="touchUpInside"/>
-                                    <action selector="AboutButton_TouchUpInside:" destination="BYZ-38-t0r" id="12358" eventType="touchUpInside"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="20183" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="city">
+                                <rect key="frame" x="143" y="345" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            </label>
                         </subviews>
                         <constraints>
                             <constraint id="7687" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
@@ -225,14 +208,6 @@
                             <constraint id="9689" firstItem="249" firstAttribute="centerY" secondItem="197" secondAttribute="bottom" constant="71"/>
                             <constraint id="9697" firstItem="197" firstAttribute="leading" secondItem="9690" secondAttribute="centerX" constant="68"/>
                             <constraint id="9698" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="9690" secondAttribute="centerY" constant="44"/>
-                            <constraint id="11353" firstItem="11347" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="34"/>
-                            <constraint id="11354" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="11347" secondAttribute="centerX" constant="46"/>
-                            <constraint id="11355" firstItem="1563" firstAttribute="centerY" secondItem="11347" secondAttribute="centerY" constant="33"/>
-                            <constraint id="11356" firstItem="11347" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="144"/>
-                            <constraint id="11706" firstItem="11703" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="33"/>
-                            <constraint id="11707" firstItem="11703" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="53"/>
-                            <constraint id="11708" firstItem="11703" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="38"/>
-                            <constraint id="11709" firstItem="11703" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="144"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -247,14 +222,6 @@
                                 <exclude reference="9689"/>
                                 <exclude reference="9697"/>
                                 <exclude reference="9698"/>
-                                <exclude reference="11353"/>
-                                <exclude reference="11354"/>
-                                <exclude reference="11355"/>
-                                <exclude reference="11356"/>
-                                <exclude reference="11706"/>
-                                <exclude reference="11707"/>
-                                <exclude reference="11708"/>
-                                <exclude reference="11709"/>
                             </mask>
                             <mask key="subviews">
                                 <exclude reference="249"/>
@@ -270,10 +237,6 @@
                                 <include reference="9689"/>
                                 <include reference="9697"/>
                                 <include reference="9698"/>
-                                <include reference="11355"/>
-                                <include reference="11356"/>
-                                <include reference="11708"/>
-                                <include reference="11709"/>
                             </mask>
                             <mask key="subviews">
                                 <include reference="1563"/>
@@ -300,10 +263,6 @@
                                 <include reference="7713"/>
                                 <include reference="8695"/>
                                 <include reference="8696"/>
-                                <include reference="11353"/>
-                                <include reference="11354"/>
-                                <include reference="11706"/>
-                                <include reference="11707"/>
                             </mask>
                         </variation>
                     </view>
@@ -320,8 +279,7 @@
                         <outlet property="newGameButton" destination="249" id="name-outlet-249"/>
                         <outlet property="winnerLabel" destination="1563" id="name-outlet-1563"/>
                         <outlet property="NewGameButton2" destination="9690" id="name-outlet-9690"/>
-                        <outlet property="ScoreBoardButton" destination="11347" id="name-outlet-11347"/>
-                        <outlet property="AboutButton" destination="11703" id="name-outlet-11703"/>
+                        <outlet property="cityLabel2" destination="20183" id="name-outlet-20183"/>
                     </connections>
                     <navigationItem id="11237" key="navigationItem" title="Home"/>
                     <tabBarItem key="tabBarItem" title="Home" id="17623"/>
@@ -472,7 +430,7 @@
         </scene>
         <scene sceneID="16441">
             <objects>
-                <viewController id="16442" sceneMemberID="viewController" customClass="ViewController">
+                <viewController id="16442" sceneMemberID="viewController" customClass="CityViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="16439"/>
                         <viewControllerLayoutGuide type="bottom" id="16440"/>
@@ -483,7 +441,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" id="18128" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="244" width="320" height="162"/>
+                                <rect key="frame" x="0.0" y="211" width="320" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="18129" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Please choose your location of play." numberOfLines="2">

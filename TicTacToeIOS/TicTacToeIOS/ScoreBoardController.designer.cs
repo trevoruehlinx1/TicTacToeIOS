@@ -15,6 +15,14 @@ namespace TicTacToeIOS
     partial class ScoreBoardController
     {
         [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UILabel cityLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UIPickerView CityPicker { get; set; }
+
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel OScoreOutputLabel { get; set; }
 

@@ -7,11 +7,11 @@ namespace TicTacToeIOS
     {
         private string[] cityNames = {"Eugene", "Springfield", "Albany","Salem", "Portland", "Cottage Grove","Creswell"};
         
-        private UILabel cityLabel;
+        private UITextField cityTextField;
         
-        public CityPickerModel(UILabel cityLabel)
+        public CityPickerModel(UITextField cityLabel)
         {
-            this.cityLabel = cityLabel;
+            this.cityTextField = cityLabel;
         }
 
         // The number returned determines the number of rings in the picker
@@ -35,7 +35,8 @@ namespace TicTacToeIOS
 
         public override void Selected(UIPickerView pickerView, nint row, nint component)
         {
-            cityLabel.Text = cityNames[pickerView.SelectedRowInComponent(0)];
+            cityTextField.Text = cityNames[pickerView.SelectedRowInComponent(0)];
+            ((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName = cityTextField.Text;
         }
 
         public override nfloat GetComponentWidth(UIPickerView picker, nint component)

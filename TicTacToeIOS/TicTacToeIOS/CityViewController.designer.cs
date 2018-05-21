@@ -16,22 +16,35 @@ namespace TicTacToeIOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel cityLabel { get; set; }
+        UIKit.UIPickerView CityPicker { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIPickerView CityPicker { get; set; }
+        UIKit.UITextField cityTextField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton EnterButton { get; set; }
+
+        [Action ("cityValueChanged:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void cityValueChanged (UIKit.UITextField sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (cityLabel != null) {
-                cityLabel.Dispose ();
-                cityLabel = null;
-            }
-
             if (CityPicker != null) {
                 CityPicker.Dispose ();
                 CityPicker = null;
+            }
+
+            if (cityTextField != null) {
+                cityTextField.Dispose ();
+                cityTextField = null;
+            }
+
+            if (EnterButton != null) {
+                EnterButton.Dispose ();
+                EnterButton = null;
             }
         }
     }

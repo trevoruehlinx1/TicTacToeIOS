@@ -13,10 +13,17 @@ namespace TicTacToeIOS
         {
             if (CityPicker != null)
             {
-                CityPicker.Model = new CityPickerModel(cityLabel);
+                CityPicker.Model = new CityPickerModel(cityTextField);
             }
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+        }
+
+        partial void cityValueChanged(UITextField sender)
+        {
+            
+            string cityNametext = cityTextField.Text;
+            //((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName = cityNametext;
         }
     }
 }

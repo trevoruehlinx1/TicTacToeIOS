@@ -9,6 +9,9 @@ namespace TicTacToeIOS
     public class AppDelegate : UIApplicationDelegate
     {
         // class-level declarations
+        public string cityName { get; set; }
+        public int xScore { get; set; }
+        public int oScore { get; set; }
 
         public override UIWindow Window
         {

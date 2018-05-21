@@ -168,9 +168,8 @@
                                     <constraint id="10840" firstItem="9690" firstAttribute="height" constant="107"/>
                                 </constraints>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="20183" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="city">
-                                <rect key="frame" x="143" y="345" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="20183" translatesAutoresizingMaskIntoConstraints="NO" text="city" misplaced="YES">
+                                <rect key="frame" x="49" y="353" width="230" height="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -208,6 +207,8 @@
                             <constraint id="9689" firstItem="249" firstAttribute="centerY" secondItem="197" secondAttribute="bottom" constant="71"/>
                             <constraint id="9697" firstItem="197" firstAttribute="leading" secondItem="9690" secondAttribute="centerX" constant="68"/>
                             <constraint id="9698" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="9690" secondAttribute="centerY" constant="44"/>
+                            <constraint id="27368" firstItem="20183" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="50"/>
+                            <constraint id="27369" firstItem="20183" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -451,20 +452,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="19043" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="63" y="89" width="195" height="33"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="City" borderStyle="roundedRect" minimumFontSize="17" id="24442" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" enabled="NO">
+                                <rect key="frame" x="112" y="73" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="cityValueChanged:" destination="16442" id="25311" eventType="editingChanged"/>
+                                    <action selector="cityValueChanged:" destination="16442" id="26185" eventType="valueChanged"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="26494" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="137" y="370" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter"/>
+                            </button>
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" title="City" id="17529"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="CityPicker" destination="18128" id="name-outlet-18128"/>
-                        <outlet property="cityLabel" destination="19043" id="name-outlet-19043"/>
+                        <outlet property="cityTextField" destination="24442" id="name-outlet-24442"/>
+                        <outlet property="EnterButton" destination="26494" id="name-outlet-26494"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16444" userLabel="First Responder" sceneMemberID="firstResponder"/>

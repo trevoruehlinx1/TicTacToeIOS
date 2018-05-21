@@ -15,10 +15,12 @@ namespace TicTacToeIOS
         public override void ViewDidLoad()
         {
             string city = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName;
-            if(city != "")
+            if (city != null)
             {
                 cityLabel2.Text = "Thanks for playing in " + city;
             }
+            else
+                cityLabel2.Text = "Thanks for playing in Eugene";
 
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.

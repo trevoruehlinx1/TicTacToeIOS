@@ -323,7 +323,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="16091" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Try to get three in a row.  If you do them you win the game.  After you win the game, do it again." numberOfLines="4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="16091" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Try to get three in a row.  If you do then you win the game.  After you win the game, do it again." numberOfLines="4">
                                 <rect key="frame" x="56" y="178" width="189" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -396,12 +396,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="27687" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="92" y="225" width="129" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="Refresh Scores">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="RefreshButton_TouchUpInside:" destination="14589" id="27688" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="XScoreOutputLabel" destination="16086" id="name-outlet-16086"/>
                         <outlet property="OScoreOutputLabel" destination="16088" id="name-outlet-16088"/>
                         <outlet property="ScoreBoardViewController" destination="14590" id="name-outlet-14590"/>
+                        <outlet property="RefreshButton" destination="27687" id="name-outlet-27687"/>
                     </connections>
                     <tabBarItem key="tabBarItem" title="Scores" id="17709"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

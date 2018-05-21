@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{935DC57D-FEE8-4F4A-833C-7F7FC7D472E8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToeIOS/TTTLogic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToeIOS/ViewController.cs">
     <Files>
       <File FileName="TicTacToeIOS/Main.storyboard" />
+      <File FileName="TicTacToeIOS/ViewController.cs" Line="23" Column="47" />
       <File FileName="TicTacToeIOS/CityViewController.cs" Line="28" Column="6" />
-      <File FileName="TicTacToeIOS/ViewController.cs" Line="92" Column="1" />
-      <File FileName="TicTacToeIOS/CityPickerModel.cs" Line="39" Column="1" />
-      <File FileName="TicTacToeIOS/ScoreBoardController.cs" Line="19" Column="86" />
-      <File FileName="TicTacToeIOS/AppDelegate.cs" Line="14" Column="1" />
-      <File FileName="TicTacToeIOS/TTTLogic.cs" Line="151" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/CityViewController.cs" relfile="TicTacToeIOS/CityViewController.cs" line="24" column="1" />
-      <Breakpoint file="/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/AppDelegate.cs" relfile="TicTacToeIOS/AppDelegate.cs" line="13" column="1" />
-      <Breakpoint file="/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/AppDelegate.cs" relfile="TicTacToeIOS/AppDelegate.cs" line="14" column="1" />
-      <Breakpoint file="/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/ViewController.cs" relfile="TicTacToeIOS/ViewController.cs" line="92" column="1" />
-      <Breakpoint file="/Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/ViewController.cs" relfile="TicTacToeIOS/ViewController.cs" line="84" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -22,10 +22,6 @@ namespace TicTacToeIOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField cityTextField { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton EnterButton { get; set; }
-
         [Action ("cityValueChanged:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void cityValueChanged (UIKit.UITextField sender);
@@ -40,11 +36,6 @@ namespace TicTacToeIOS
             if (cityTextField != null) {
                 cityTextField.Dispose ();
                 cityTextField = null;
-            }
-
-            if (EnterButton != null) {
-                EnterButton.Dispose ();
-                EnterButton = null;
             }
         }
     }

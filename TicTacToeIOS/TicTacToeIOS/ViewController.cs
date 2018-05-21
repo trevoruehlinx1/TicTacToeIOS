@@ -83,6 +83,7 @@ namespace TicTacToeIOS
                 {
                     winnerLabel.Text = TTTLogic.IsWinner() ? "Computer Wins" : "Its a Tie";
                     xScore++;
+                    ((AppDelegate)(UIApplication.SharedApplication.Delegate)).xScore = xScore;
                     DisableGame();
                 }
             }
@@ -90,6 +91,7 @@ namespace TicTacToeIOS
             {
                 winnerLabel.Text = TTTLogic.IsWinner() ? "You Win" : "Its a Tie";
                 oScore++;
+                ((AppDelegate)(UIApplication.SharedApplication.Delegate)).oScore = oScore;
                 DisableGame();
             }
         }

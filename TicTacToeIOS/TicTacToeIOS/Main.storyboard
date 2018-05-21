@@ -145,7 +145,7 @@
                                     <action selector="NewGameButton_TouchUpInside:" destination="BYZ-38-t0r" id="250" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1563" translatesAutoresizingMaskIntoConstraints="NO" text="WinnerLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1563" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="118.5" y="303.5" width="91" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -452,7 +452,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="City" borderStyle="roundedRect" minimumFontSize="17" id="24442" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" enabled="NO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="24442" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" enabled="NO">
                                 <rect key="frame" x="112" y="73" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -463,11 +463,6 @@
                                     <action selector="cityValueChanged:" destination="16442" id="26185" eventType="valueChanged"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="26494" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="137" y="370" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enter"/>
-                            </button>
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" title="City" id="17529"/>
@@ -475,7 +470,6 @@
                     <connections>
                         <outlet property="CityPicker" destination="18128" id="name-outlet-18128"/>
                         <outlet property="cityTextField" destination="24442" id="name-outlet-24442"/>
-                        <outlet property="EnterButton" destination="26494" id="name-outlet-26494"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16444" userLabel="First Responder" sceneMemberID="firstResponder"/>

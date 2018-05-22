@@ -27,6 +27,10 @@ namespace TicTacToeIOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton RefreshLocationButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton squar1 { get; set; }
 
         [Outlet]
@@ -69,6 +73,10 @@ namespace TicTacToeIOS
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void NewGameButton_TouchUpInside (UIKit.UIButton sender);
 
+        [Action ("RefreshLocationButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void RefreshLocationButton_TouchUpInside (UIKit.UIButton sender);
+
         [Action ("UIButton200_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void UIButton200_TouchUpInside (UIKit.UIButton sender);
@@ -88,6 +96,11 @@ namespace TicTacToeIOS
             if (NewGameButton2 != null) {
                 NewGameButton2.Dispose ();
                 NewGameButton2 = null;
+            }
+
+            if (RefreshLocationButton != null) {
+                RefreshLocationButton.Dispose ();
+                RefreshLocationButton = null;
             }
 
             if (squar1 != null) {

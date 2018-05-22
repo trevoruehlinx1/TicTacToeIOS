@@ -135,6 +135,17 @@ namespace TicTacToeIOS
             winnerLabel.Text = "";
             TTTLogic.Reset();
         }
+
+        partial void RefreshLocationButton_TouchUpInside(UIButton sender)
+        {
+            string city = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName;
+            if (city != null)
+            {
+                cityLabel2.Text = "Thanks for playing in " + city;
+            }
+            else
+                cityLabel2.Text = "Thanks for playing in Eugene";
+        }
     }
 }
             //ANIMATION NOTES!!!

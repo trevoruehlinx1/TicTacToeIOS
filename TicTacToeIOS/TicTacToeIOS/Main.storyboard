@@ -174,6 +174,17 @@
                                 <nil key="highlightedColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="28264" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="100" y="382" width="129" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="Refresh Location">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="RefreshButton_TouchUpInside:" destination="28266" id="28265" eventType="touchUpInside"/>
+                                    <action selector="RefreshLocationButton_TouchUpInside:" destination="BYZ-38-t0r" id="28327" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint id="7687" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
@@ -209,6 +220,8 @@
                             <constraint id="9698" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="9690" secondAttribute="centerY" constant="44"/>
                             <constraint id="27368" firstItem="20183" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="50"/>
                             <constraint id="27369" firstItem="20183" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
+                            <constraint id="28900" firstItem="28264" firstAttribute="centerY" secondItem="1563" secondAttribute="centerY" constant="83"/>
+                            <constraint id="28901" firstItem="28264" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="4"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -281,6 +294,7 @@
                         <outlet property="winnerLabel" destination="1563" id="name-outlet-1563"/>
                         <outlet property="NewGameButton2" destination="9690" id="name-outlet-9690"/>
                         <outlet property="cityLabel2" destination="20183" id="name-outlet-20183"/>
+                        <outlet property="RefreshLocationButton" destination="28264" id="name-outlet-28264"/>
                     </connections>
                     <navigationItem id="11237" key="navigationItem" title="Home"/>
                     <tabBarItem key="tabBarItem" title="Home" id="17623"/>

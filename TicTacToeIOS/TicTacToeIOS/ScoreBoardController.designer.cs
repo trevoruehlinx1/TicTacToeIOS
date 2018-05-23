@@ -20,30 +20,17 @@ namespace TicTacToeIOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton RefreshButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView ScoreBoardViewController { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel XScoreOutputLabel { get; set; }
 
-        [Action ("RefreshButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void RefreshButton_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
             if (OScoreOutputLabel != null) {
                 OScoreOutputLabel.Dispose ();
                 OScoreOutputLabel = null;
-            }
-
-            if (RefreshButton != null) {
-                RefreshButton.Dispose ();
-                RefreshButton = null;
             }
 
             if (ScoreBoardViewController != null) {

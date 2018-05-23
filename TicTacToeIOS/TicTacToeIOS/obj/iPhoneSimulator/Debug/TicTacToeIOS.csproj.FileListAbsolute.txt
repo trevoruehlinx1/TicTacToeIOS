@@ -64,3 +64,14 @@
 /Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.csproj.CoreCompileInputs.cache
 /Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.exe
 /Users/student/Desktop/tu/TicTacToeIOS-lab5-/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.pdb
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/bin/iPhoneSimulator/Debug/TicTacToeIOS.exe
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/bin/iPhoneSimulator/Debug/TicTacToeIOS.pdb
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/actool/_PartialAppManifest.items
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/coremlc/_PartialAppManifest.items
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.2/optimized/
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.csproj.CoreCompileInputs.cache
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.exe
+/Users/student/Desktop/tu/TicTacToeIOS/TicTacToeIOS/TicTacToeIOS/obj/iPhoneSimulator/Debug/TicTacToeIOS.pdb

@@ -21,12 +21,13 @@ namespace TicTacToeIOS
             OScoreOutputLabel.Text = OScore.ToString();
         }
 
-        partial void RefreshButton_TouchUpInside(UIButton sender)
-        {
+		public override void ViewDidAppear(bool animated)
+		{
             XScore = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).xScore;
             OScore = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).oScore;
             XScoreOutputLabel.Text = XScore.ToString();
             OScoreOutputLabel.Text = OScore.ToString();
-        }
+			base.ViewDidAppear(animated);
+		}
     }
 }

@@ -25,8 +25,19 @@ namespace TicTacToeIOS
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
         }
+		public override void ViewDidAppear(bool animated)
+		{
+            string city = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName;
+            if (city != null)
+            {
+                cityLabel2.Text = "Thanks for playing in " + city;
+            }
+            else
+                cityLabel2.Text = "Thanks for playing in Eugene";
+			base.ViewDidAppear(animated);
+		}
 
-        public override void DidReceiveMemoryWarning()
+		public override void DidReceiveMemoryWarning()
         {
             
             base.DidReceiveMemoryWarning();
@@ -134,17 +145,6 @@ namespace TicTacToeIOS
             squar9.SetTitle("", UIControlState.Normal);
             winnerLabel.Text = "";
             TTTLogic.Reset();
-        }
-
-        partial void RefreshLocationButton_TouchUpInside(UIButton sender)
-        {
-            string city = ((AppDelegate)(UIApplication.SharedApplication.Delegate)).cityName;
-            if (city != null)
-            {
-                cityLabel2.Text = "Thanks for playing in " + city;
-            }
-            else
-                cityLabel2.Text = "Thanks for playing in Eugene";
         }
     }
 }
